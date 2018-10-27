@@ -1,0 +1,16 @@
+@attribute age 			{young, pre-presbyopic, presbyopic}
+@attribute spectacle-prescrip	{myope, hypermetrope}
+@attribute astigmatism		{no, yes}
+@attribute contact-lenses	{soft, hard, none}
+
+@data
+%
+% 6 instances
+%
+
+young,myope,yes,none
+young,hypermetrope,yes,hard
+pre-presbyopic,myope,yes,none
+pre-presbyopic,myope,yes,hard
+presbyopic,hypermetrope,no,soft
+presbyopic,hypermetrope,yes,none
